@@ -1,0 +1,89 @@
+body{
+    font-family: Karla;
+    font-size: 16px;
+    margin: 4em auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    background-color: rgba(210, 210, 210, 0.847);
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: minmax(50px, 1fr);
+    max-width: 45%;
+}
+header, section{
+    padding: 1.5rem;
+    overflow: hidden;
+}
+header{
+    grid-column: span 2;
+    background-color: hsl(204, 43%, 93%);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding-bottom: 0.1em;
+}
+.community{
+    color: hsl(179, 62%, 43%);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.line-2{
+    color: hsl(71, 73%, 54%);
+}
+.sub-info{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5rem;
+}
+section{
+    color: white;
+    font-size: 0.8rem;
+    padding-top: 0.3em;
+    padding-bottom: 1.3em;
+}
+.left-section{
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 12px;
+    font-size: 0.9rem;
+}
+.price{
+    font-size: 1.8rem;
+    margin: 0;
+    font-weight: 700;
+}
+.access{
+    margin-bottom: 0.5em;
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    padding: 0.7rem 6em;
+    border-radius: 0.5rem;
+    color: white;
+    margin-top: 2rem;
+    cursor: pointer;
+    margin-left: 0.1em;
+}
+.monthly{
+    margin-bottom: 0.4rem;
+}
+.per-month{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0;
+}
+.right-section{
+    background-color: hsla(179, 60%, 50%, 0.874);
+    border-bottom-right-radius: 12px;
+}
+.right-section p{
+    font-size: 0.7rem;
+    color: hsl(217, 48%, 89%);
+}
+.why-us{
+    font-size: 1rem;
+    font-weight: 500;
+}
